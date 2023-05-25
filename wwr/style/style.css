@@ -1,5 +1,5 @@
 <body>
-    <div id="content max-width:1600px margin: 0 auto">
+    <div id="content" max-width:1600px; margin: 0 auto; >
          <header>
              nav a  {
                       text-align: center;
@@ -8,19 +8,23 @@
                       text-decoration: none;
                    }
              #hero-msg h1  { 
-                    text-align: center}        #hero-msg h4 .center {text-align: center}
+                    text-align: center;
+                }       
+                 #hero-msg h4 .center {text-align: center}
              .button-box  { 
-                    text-align: center}
+                    text-align: center;}
              main section { 
                     text-align: center}
          </footer>
-     <div>
-             <section class="rapids-card">
+    </div>     
+</body>         
+<div>
+     <section class="rapids-card">
                  <img class="card-img" src="images/rapids.jpg" alt="rafting boat">
                  <img class="icon" src="images/oars.png" alt="oars icon">
                  <h2>Rapids</h2>
-             </section>
-             <div id="background
+    </section>
+    <div id="background
                  #background {
                    height: 725px;
                  }
@@ -105,4 +109,3 @@
             width: 100px
         }
     </div>
-</body>
