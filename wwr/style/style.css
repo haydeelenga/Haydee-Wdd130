@@ -4,7 +4,7 @@
              nav a  {
                       text-align: center;
                       background-color: #00a3cc;
-                      color: #A25a18;
+                      color: #A25;
                       text-decoration: none;
                    }
              #hero-msg {
@@ -13,7 +13,11 @@
              h1  { 
                     text-align: center;
                 }       
-                 #hero-msg h4 .center {text-align: center}
+                 #hero-msg  {
+                    text-align: center}
+            h4 {
+                text_align: center;
+            }
              .button-box  { 
                     text-align: center;}
              main section { 
@@ -40,18 +44,18 @@
              </section>
          </div>
          body  {
-                 background-color: #fcfbfb; 
+                 background-color: #1e9926; 
                }
         header {
                  background-color: #00a3cc;
                }       
         nav a:hover {
-                      background-color: #A25a18;
-                      color: #00313d
+                      background-color: #00a3cc;
+                      color: #A25
                     }
         .book {
             text-align: center;
-            color: #fcf;
+            color: #A25a18;
             text-decoration: none
         }            
         .book:hover {
@@ -73,29 +77,29 @@
                    background-color: #A25a18
              }
         footer {
-                 background-color: #A25a18;
+                 background-color: #A25;
                  color: #00313d;
                }     
         .home-title {
-                       color: #00313d;
+                       color: #3d0038;
                    }
         h4  {
               color: #00313d;
               text-align: center
             }
         .msg h2 {
-                  color: #1e9926;
+                  color: #60991e;
                 }
         .msg  {
                   color: #1e9926;
               }
         footer a  {
                     text-align: center;
-                    color: #A25a18;
+                    color: #1821a2;
                     text-decoration: none;
                   }
         footer a:hover {
-                          color: #1e9926
+                          color: #991e57
                        }
         footer p {
             font-size: 1.2em;
@@ -111,5 +115,8 @@
                }
         #hero-img {
             width: 100%;
+        }
+        #mountains-img {
+           text-align: center;
         }
     </div>
