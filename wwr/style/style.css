@@ -40,11 +40,11 @@
                  background-color: #fcfbfb; 
                }
         header {
-                 background-color: blue;
+                 background-color: #00a3cc;
                }       
         nav a:hover {
-                      background-color: black;
-                      color: #fcfcfc
+                      background-color: #A25a18;
+                      color: #00313d
                     }
         .book {
             text-align: center;
