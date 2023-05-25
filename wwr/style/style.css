@@ -1,20 +1,106 @@
 <body>
     <div id="content max-width:1600px margin: 0 auto">
-        <header>
-    . . .nav a
-         #hero-msg h1, #hero-msg h4
-         .button-box
-         main section
+         <header>
+             nav a  {
+                      text-align: center;
+                      background-color: Orange;
+                      color: #1e9926;
+                      text-decoration: none;
+                   }
+             #hero-msg h1  { 
+                    text-align: center}        #hero-msg h4 .center {text-align: center}
+             .button-box  { 
+                    text-align: center}
+             main section { 
+                    text-align: center}
          </footer>
-         #background {
-            height: 725px;
-        }   
-        .logo {
-            width: 80px;
-        } 
-        .icon {
-            width: 80px;
+     <div>
+             <section class="rapids-card">
+                 <img class="card-img" src="images/rapids.jpg" alt="rafting boat">
+                 <img class="icon" src="images/oars.png" alt="oars icon">
+                 <h2>Rapids</h2>
+             </section>
+             <div id="background
+                 #background {
+                   height: 725px;
+                 }
+             "></div> 
+             <img class="mountains" src="images/mountains.jpg" alt="Misty mountains">
+             <section class="msg">
+                 <h2>More Than Just The Thrill</h2>
+                 <p>Enjoy the breathtaking scenery. From valleys, meadows, canyons, and high peaks; it's way more than just the rapids. It's a great way to get away from it all and relax amongst all the beauty of the great outdoors. </p>
+                 <a class='join' href="rivers.html">Join Us</a>
+             </section>
+         </div>
+         body  {
+                 background-color: #fcfbfb; 
+               }
+        header {
+                 background-color: blue;
+               }       
+        nav a:hover {
+                      background-color: black;
+                      color: #fcfcfc
+                    }
+        .book {
+            text-align: center;
+            color: #fcf;
+            text-decoration: none
+        }            
+        .book:hover {
+                      background-color: #00a3cc
+                     }  
+        .join {
+                 text-align: center;
+                 color: #fcfcfc;
+                text-decoration: none;
+             }     
+        .join:hover {
+                      background-color: #00a3cc; ;
+                      color: #A25a18
+                    }    
+        #background {
+                        background-color: #A25a18
+                     }
+        .msg {
+                   background-color: #A25a18
+             }
+        footer {
+                 background-color: green;
+                 color: #A25a18;
+               }     
+        .home-title {
+                       color: #00313d;
+                   }
+        h4  {
+              color: #1e9926;
+            }
+        .msg h2 {
+                  color: #1e9926;
+                }
+        .msg  {
+                  color: #1e9926;
+              }
+        footer a  {
+                    text-align: center;
+                    color: #A25a18;
+                    text-decoration: none;
+                  }
+        footer a:hover {
+                          color: #1e9926
+                       }
+        footer p {
+            font-size: 1.2em;
+            }    
+        footer p a:hover {
+            text-decoration: underline;
         }
+        .logo {
+                 width: 80px;
+              } 
+        .icon {
+                 width: 80px;
+               }
         #hero-img {
             width: 100px
         }
