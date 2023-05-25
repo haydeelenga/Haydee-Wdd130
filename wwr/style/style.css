@@ -3,11 +3,14 @@
          <header>
              nav a  {
                       text-align: center;
-                      background-color: Orange;
-                      color: #1e9926;
+                      background-color: #00a3cc;
+                      color: #A25a18;
                       text-decoration: none;
                    }
-             #hero-msg h1  { 
+             #hero-msg {
+                  text-align: center;
+                  }
+             h1  { 
                     text-align: center;
                 }       
                  #hero-msg h4 .center {text-align: center}
@@ -56,7 +59,7 @@
                      }  
         .join {
                  text-align: center;
-                 color: #fcfcfc;
+                 color:#00313d;
                 text-decoration: none;
              }     
         .join:hover {
@@ -70,14 +73,15 @@
                    background-color: #A25a18
              }
         footer {
-                 background-color: green;
-                 color: #A25a18;
+                 background-color: #A25a18;
+                 color: #00313d;
                }     
         .home-title {
                        color: #00313d;
                    }
         h4  {
-              color: #1e9926;
+              color: #00313d;
+              text-align: center
             }
         .msg h2 {
                   color: #1e9926;
@@ -106,6 +110,6 @@
                  width: 80px;
                }
         #hero-img {
-            width: 100px
+            width: 100%;
         }
     </div>
